@@ -1,9 +1,6 @@
 import cv2
 import numpy as np
 
-
-
-
 def Imgprocessing(i):
  gray=cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
  edges = cv2.Canny(gray, threshold1=50, threshold2=150)
